@@ -68,4 +68,7 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+  
+  # add the shell provisionner script
+  config.vm.provision "shell", path: "provisioner.sh"
 end
