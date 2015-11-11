@@ -1,6 +1,6 @@
 #!/bin/bash
 echo '## Install utils'
-sudo yum install vim
+sudo yum install vim -y
 
 echo "## Install apache 2.4"
 cd /etc/yum.repos.d/
