@@ -1,2 +1,3 @@
 .vagrant
+log/*
 my-command.log
