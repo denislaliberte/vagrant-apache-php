@@ -14,6 +14,5 @@ sudo yum --enablerepo=remi install -y httpd
 echo '## Install php 56'
 sudo yum --enablerepo=remi,remi-test  install -y php php-gd php-mysql php-mbstring php-xml
 
-#echo 'LoadModule php5_module /usr/lib64/httpd/modules/libphp5.so' | sudo tee -a /etc/httpd/conf/httpd.conf
 echo 'include /vagrant/etc/*.conf' | sudo tee -a /etc/httpd/conf/httpd.conf
 service httpd start
