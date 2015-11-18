@@ -12,7 +12,7 @@ sudo yum --enablerepo=remi install -y httpd
 /opt/rh/httpd24/root/usr/sbin/httpd -version
 
 echo '## Install php 56'
-sudo yum --enablerepo=remi,remi-test  install -y php php-gd php-mysql php-mbstring php-xml
+sudo yum --enablerepo=remi-php56  install -y php php-gd php-mysql php-mbstring php-xml
 
 echo 'include /vagrant/etc/*.conf' | sudo tee -a /etc/httpd/conf/httpd.conf
 service httpd start

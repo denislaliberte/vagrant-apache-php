@@ -2,6 +2,7 @@
 <p> php is activated : 
 <?php 
       print "yes"; 
+      phpinfo();
       die("");
 ?>
 no
