@@ -1,3 +1,4 @@
 .vagrant
 log/*
 my-command.log
+etc/*.conf
