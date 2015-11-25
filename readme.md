@@ -1,4 +1,4 @@
-# tp1-vagrant 
+# Vagrant 
 
 ## how to
 Add these files to your projects to create virtual machine with apache 2.2 and php 5.4 5.3 ou 5.6
