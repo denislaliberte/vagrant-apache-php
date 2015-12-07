@@ -66,6 +66,12 @@ To connect to the database on the host, use the adresse 10.0.0.1, see the exampl
         $dbh = new PDO('mysql:host=10.0.0.1', 'root', '');
 ```
 
+Configure the mysql user to accept request from vagrant, change the command to use your favorite user and password
+
+```
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '';
+```
+
 Use the command `vagrant up` to create the virtual machine.
 
 Use the command `vagrant destroy` to delete the virtual machine.
