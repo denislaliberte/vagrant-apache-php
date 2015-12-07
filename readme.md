@@ -4,6 +4,15 @@ Add these files to your projects to create virtual machine with apache 2.2 and p
 
 ---
 
+To install vagrant and virtual box on OSX.
+
+```
+brew install cask
+brew cask install virtualbox
+brew cask install vagrant
+vagrant
+```
+
 Run ./provisioner/config-vagrant.sh, to create the log and etc folder and add the vhost file.
 
 ```
